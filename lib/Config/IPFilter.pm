@@ -1,7 +1,7 @@
 package Config::IPFilter;
 {
     use Moose;
-    our $MAJOR = 0; our $MINOR = 99; our $DEV = 0; our $VERSION = sprintf('%0d.%02d' . ($DEV ? (($DEV < 0 ? '' : '_') . '%03d') : ('')), $MAJOR, $MINOR, abs $DEV); use lib '../';
+    our $MAJOR = 1; our $MINOR = 00; our $DEV = 0; our $VERSION = sprintf('%0d.%02d' . ($DEV ? (($DEV < 0 ? '' : '_') . '%03d') : ('')), $MAJOR, $MINOR, abs $DEV);
     use Config::IPFilter::Types;
 
     #
@@ -243,6 +243,6 @@ L<Creative Commons Attribution-Share Alike 3.0 License|http://creativecommons.or
 See the
 L<clarification of the CCA-SA3.0|http://creativecommons.org/licenses/by-sa/3.0/us/>.
 
-=for rcs $Id: IPFilter.pm 9c5350d 2010-12-27 17:10:31Z sanko@cpan.org $
+=for rcs $Id: IPFilter.pm 53e0787 2011-02-01 15:34:19Z sanko@cpan.org $
 
 =cut

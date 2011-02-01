@@ -23,15 +23,15 @@
    "provides" : {
       "Config::IPFilter" : {
          "file" : "lib/Config/IPFilter.pm",
-         "version" : "0.99"
+         "version" : "1.00"
       },
       "Config::IPFilter::Rule" : {
          "file" : "lib/Config/IPFilter/Rule.pm",
-         "version" : "0.99"
+         "version" : "1.00"
       },
       "Config::IPFilter::Types" : {
          "file" : "lib/Config/IPFilter/Types.pm",
-         "version" : "0.99"
+         "version" : "1.00"
       }
    },
    "release_status" : "stable",
@@ -51,5 +51,5 @@
       },
       "x_ChangeLog" : "http://github.com/sanko/config-ipfilter/commits/"
    },
-   "version" : "0.99"
+   "version" : "1.00"
 }

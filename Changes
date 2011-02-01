@@ -1,4 +1,9 @@
-Version 0.99 | 2010-12-27 17:10:31Z (Mon, 27 Dec 2010) | 9c5350d
+Version 1.00 | 2011-02-01 15:34:19Z (Tue, 01 Feb 2011) | 53e0787
+
+    Notes:
+     * PAUSE choked on v0.99 so 1.00 brings nothing new
+
+Version 0.99 | 2010-12-27 05:26:21Z (Mon, 27 Dec 2010) | c785a0b
 
     API Changes/Compatibility Information:
      * See below
@@ -21,6 +26,6 @@ _ -.-. .... .- -. --. . ... _________________________________________
 For more information, see the commit log:
     http://github.com/sanko/config-ipfilter/commits/
 
-$Ver: 0.99 $ from git $Rev: 9c5350d $
-$Date: 2010-12-27 17:10:31Z (Mon, 27 Dec 2010) $
+$Ver: 1.00 $ from git $Rev: 53e0787 $
+$Date: 2011-02-01 15:34:19Z (Tue, 01 Feb 2011) $
 $Url: http://github.com/sanko/config-ipfilter/tree//raw/master/Changes $

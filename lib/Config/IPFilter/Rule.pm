@@ -1,8 +1,7 @@
 package Config::IPFilter::Rule;
 {
     use Moose;
-    our $MAJOR = 0; our $MINOR = 99; our $DEV = 0; our $VERSION = sprintf('%0d.%02d' . ($DEV ? (($DEV < 0 ? '' : '_') . '%03d') : ('')), $MAJOR, $MINOR, abs $DEV);
-    use lib '../../';
+    our $MAJOR = 1; our $MINOR = 0; our $DEV = 0; our $VERSION = sprintf('%0d.%02d' . ($DEV ? (($DEV < 0 ? '' : '_') . '%03d') : ('')), $MAJOR, $MINOR, abs $DEV);
     use Config::IPFilter::Types;
 
     #
@@ -187,6 +186,6 @@ L<clarification of the CCA-SA3.0|http://creativecommons.org/licenses/by-sa/3.0/u
 Neither this module nor the L<Author|/Author> is affiliated with BitTorrent,
 Inc.
 
-=for rcs $Id: Rule.pm c785a0b 2010-12-27 05:26:21Z sanko@cpan.org $
+=for rcs $Id: Rule.pm 53e0787 2011-02-01 15:34:19Z sanko@cpan.org $
 
 =cut
